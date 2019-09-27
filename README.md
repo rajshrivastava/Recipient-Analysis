@@ -9,12 +9,12 @@ Steps:
 5. predict_recipient.py : After training, run this code to predict the recipient for user input  data.
 
 Other files description:
-generate_vocabs.py  : to generate dictionaries for sender email ids, receiver email ids and word vocabulary
-generate_training_dataset.py : to prepare lists of inputs and outputs for training.
-sal_parser.py : to extract salutations from emails
-generate_testing_dataset.py : to prepare lists of inputs and outputs for testing.
-training_data.csv : training data of 439790 samples in the following format: <sender_email_id, receiver_email_id, subject, message> 
-testing_data.csv : testing data of 77611 samples in the following format: <sender_email_id, receiver_email_id, subject, message>
+generate_vocabs.py  : to generate dictionaries for sender email ids, receiver email ids and word vocabulary.\
+generate_training_dataset.py : to prepare lists of inputs and outputs for training.\
+sal_parser.py : to extract salutations from emails.\
+generate_testing_dataset.py : to prepare lists of inputs and outputs for testing.\
+training_data.csv : training data of 439790 samples in the following format: <sender_email_id, receiver_email_id, subject, message>\
+testing_data.csv : testing data of 77611 samples in the following format: <sender_email_id, receiver_email_id, subject, message>\
 
 
 Notes
